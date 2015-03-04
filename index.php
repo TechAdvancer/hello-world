@@ -15,6 +15,9 @@
 <div id="content"> <!-- content container below the header -->
 <!-- random links are random, for now. This is just a placeholder until the real stuff is made. -->
 
+<!-- our book; a separate div from everything else for future code changes -->
+<div id="book">
+
 <!-- div to hold links on the left page -->
 <div class="leftPage">
 <!-- later, use php or javascript to auto-insert these links -->
@@ -22,6 +25,9 @@
 <a href="https://www.youtube.com/channel/UC7Oms5WI9khbAYFynExPNjQ">TheMorceMan's Youtube Channel</a><br>
 <a href="http://www.breakblock.org/">Break Block</a><br> <!-- Update this to https when ssl cert is up -->
 ...<br><br>
+<div style="width: 100%; text-align: center; ">
+<small>1</small>
+</div><br><br>
 <a href="#"><< Previous Page</a><!-- use php or javascript to automate this -->
 </div> <!-- end leftPage -->
 
@@ -32,8 +38,13 @@
 <a href="http://www.newgrounds.com/">Newgrounds</a><br>
 <a href="http://www.planetside-universe.com/character-5428011263311592001.php">Tech's Planetside 2 stats</a><br>
 ...<br><br>
-<a href="#">Next Page >></a><!-- use php or javascript to automate this -->
+<div style="width: 100%; text-align: center; ">
+<small>2</small>
+</div><br><br>
+<a href="#" style="float: right;">Next Page >></a><!-- use php or javascript to automate this -->
 </div> <!-- end rightPage -->
+
+</div> <!-- end book -->
 
 </div> <!-- end content -->
 
