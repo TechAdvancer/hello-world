@@ -1,0 +1,33 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+/* contains the page title and short description */
+#header{
+width: 100%;
+margin-top: 3%;
+text-align: center;
+}
+
+/* content container for everything between the header and footer */
+#content{
+width: 100%;
+margin-top: 5%;
+}
+
+/* div to hold links on the left page */
+.leftPage{
+float: left;
+margin-left: 5%;
+width: 40%;
+border: solid 1px black;
+}
+
+/* div to hold links on the right page */
+.rightPage{
+float: right;
+margin-right: 5%;
+width: 40%;
+border: solid 1px black;
+}
